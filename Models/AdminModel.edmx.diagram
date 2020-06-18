@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d71973b433474b5fb497a2bbef0adb85" Name="Diagram1">
+        <EntityTypeShape EntityType="SummitWorksEventManagerModel.Event" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="SummitWorksEventManagerModel.Order" Width="1.5" PointX="3.375" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SummitWorksEventManagerModel.User" Width="1.5" PointX="6" PointY="1.625" IsExpanded="true" />
+        <AssociationConnector Association="SummitWorksEventManagerModel.EventFK" ManuallyRouted="false" />
+        <AssociationConnector Association="SummitWorksEventManagerModel.UserFK" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
